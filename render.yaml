@@ -15,6 +15,12 @@ services:
         value: 12.18.4
       - key: NODE_ENV
         value: production
+      key: CLOUDINARY_NAME
+        sync: false
+      - key: CLOUDINARY_KEY
+        sync: false
+      - key: CLOUDINARY_SECRET
+        sync: false
       - key: DATABASE_FILENAME
         value: /data/strapi.db
       - key: JWT_SECRET
